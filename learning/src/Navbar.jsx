@@ -35,6 +35,26 @@ export const Navbar = () => {
               FormHendling 
             </Link>
           </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/ApiDemo">
+              ApiDemo
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/CityState">
+              Country
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/ApiDemo2">
+              ApiDemo2
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/ApiDemo3">
+              ApiDemo3
+            </Link>
+          </li>
           
         </ul>
       </div>

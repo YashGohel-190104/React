@@ -20,6 +20,10 @@ import { NetflixGame } from './Netflix.jsx/NetflixGame';
 import { PlayShow } from './Netflix.jsx/PlayShow';
 import { PlayGames } from './Netflix.jsx/PlayGames';
 import { FormHendling } from './FormComponents/FormHendling';
+import { ApiDemo } from './Apis/ApiDemo';
+import { CityState } from './Components/CityState';
+import { ApiDemo2 } from './Apis/ApiDemo2';
+import { ApiDemo3 } from './Apis/ApiDemo3';
 function App() {
 
   // var name = "Yash Gohel"
@@ -57,6 +61,10 @@ function App() {
       <Route path= "/netflixgames" element = {<NetflixGame/>}></Route>
       <Route path= "/playgame" element = {<PlayGames/>}></Route>
       <Route path="/formhendling" element = {<FormHendling/>}></Route>
+      <Route path='/ApiDemo' element = {<ApiDemo/>}></Route>
+      <Route path='/cityState' element={<CityState/>}></Route>
+      <Route path='/ApiDemo2' element= {<ApiDemo2/>}></Route>
+      <Route path='/ApiDemo3' element= {<ApiDemo3/>}></Route>
            {/* <Route path = "/*" element = {<h1>ErrorPage</h1>}></Route> */}
        <Route path  ="/*" element = {<ErrorPage/>}></Route>
     </Routes>
