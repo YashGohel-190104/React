@@ -24,6 +24,8 @@ import { ApiDemo } from './Apis/ApiDemo';
 import { CityState } from './Components/CityState';
 import { ApiDemo2 } from './Apis/ApiDemo2';
 import { ApiDemo3 } from './Apis/ApiDemo3';
+import { ApiDemo4 } from './Apis/ApiDemo4';
+import { MovieApi } from './Apis/MovieApi';
 function App() {
 
   // var name = "Yash Gohel"
@@ -65,6 +67,8 @@ function App() {
       <Route path='/cityState' element={<CityState/>}></Route>
       <Route path='/ApiDemo2' element= {<ApiDemo2/>}></Route>
       <Route path='/ApiDemo3' element= {<ApiDemo3/>}></Route>
+      <Route path='/ApiDemo4' element = {<ApiDemo4/>}></Route>
+      <Route path='/MovieApi' element = {<MovieApi/>}></Route>
            {/* <Route path = "/*" element = {<h1>ErrorPage</h1>}></Route> */}
        <Route path  ="/*" element = {<ErrorPage/>}></Route>
     </Routes>

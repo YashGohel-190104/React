@@ -106,8 +106,8 @@ export const ApiDemo = () => {
             <Modal.Header>
                 <Modal.Title>USER DETAIL</Modal.Title>
             </Modal.Header>
-            <Modal.Body>{ user.name }</Modal.Body>
-            <Modal.Body>{ user.email }</Modal.Body>
+            <Modal.Body>{ user.name}</Modal.Body>
+            <Modal.Body>{ user.Email}</Modal.Body>
             <Modal.Footer></Modal.Footer>
         </Modal>
         </div>

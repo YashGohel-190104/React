@@ -55,7 +55,16 @@ export const Navbar = () => {
               ApiDemo3
             </Link>
           </li>
-          
+          <li className="nav-item active">
+            <Link className="nav-link" to="/ApiDemo4">
+              ApiDemo4
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/MovieApi">
+              MovieApi
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
