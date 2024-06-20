@@ -32,8 +32,12 @@ export const MovieApi = () => {
     </button>
     {movie && (
       <div>
-        <h1>{movie.title}</h1>
-        <img height="300px" width="300px" src={movie.poster_path}></img>
+        <h1>{movie.
+// @ts-ignore
+        title}</h1>
+        <img height="300px" width="300px" src={movie.
+// @ts-ignore
+        poster_path}></img>
       </div>
     )}</div>
   )

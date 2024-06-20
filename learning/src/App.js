@@ -26,6 +26,7 @@ import { ApiDemo2 } from './Apis/ApiDemo2';
 import { ApiDemo3 } from './Apis/ApiDemo3';
 import { ApiDemo4 } from './Apis/ApiDemo4';
 import { MovieApi } from './Apis/MovieApi';
+import { Google } from './Contex/Google';
 function App() {
 
   // var name = "Yash Gohel"
@@ -69,6 +70,7 @@ function App() {
       <Route path='/ApiDemo3' element= {<ApiDemo3/>}></Route>
       <Route path='/ApiDemo4' element = {<ApiDemo4/>}></Route>
       <Route path='/MovieApi' element = {<MovieApi/>}></Route>
+      <Route path='/google' element = {<Google/>}></Route> 
            {/* <Route path = "/*" element = {<h1>ErrorPage</h1>}></Route> */}
        <Route path  ="/*" element = {<ErrorPage/>}></Route>
     </Routes>

@@ -65,6 +65,11 @@ export const Navbar = () => {
               MovieApi
             </Link>
           </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/google">
+              Google
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
