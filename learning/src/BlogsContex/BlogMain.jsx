@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { BlogsContext } from './BlogsContext';
-// @ts-ignore
-import {BLogPublish} from './BlogPublish';
+import { BlogPublish } from './BlogPublish';
 export const BlogMain = () => {
 
     const [blogs, setblogs] = useState([]);
@@ -13,7 +12,7 @@ export const BlogMain = () => {
         </h1>
 
         <BlogsContext.Provider value={{blogs,setblogs}}>
-            <BLogPublish></BLogPublish>
+            <BlogPublish></BlogPublish>
         </BlogsContext.Provider>
     </div>
   )

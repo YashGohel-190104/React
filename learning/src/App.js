@@ -28,7 +28,7 @@ import { ApiDemo4 } from './Apis/ApiDemo4';
 import { MovieApi } from './Apis/MovieApi';
 import { Google } from './Contex/Google';
 import { PostTwtter } from './Twitter/PostTwtter';
-import { BlogMain } from './Blogs/BlogMain';
+import { BlogMain } from './BlogsContex/BlogMain';
 function App() {
 
   // var name = "Yash Gohel"
