@@ -75,6 +75,11 @@ export const Navbar = () => {
               PostTwtter
             </Link>
           </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/BlogMain">
+            BlogMain
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

@@ -28,6 +28,7 @@ import { ApiDemo4 } from './Apis/ApiDemo4';
 import { MovieApi } from './Apis/MovieApi';
 import { Google } from './Contex/Google';
 import { PostTwtter } from './Twitter/PostTwtter';
+import { BlogMain } from './Blogs/BlogMain';
 function App() {
 
   // var name = "Yash Gohel"
@@ -73,6 +74,7 @@ function App() {
       <Route path='/MovieApi' element = {<MovieApi/>}></Route>
       <Route path='/google' element = {<Google/>}></Route> 
       <Route path='/postTweet' element = {<PostTwtter/>}></Route> 
+      <Route path='/BlogMain' element = {<BlogMain/>}></Route>
            {/* <Route path = "/*" element = {<h1>ErrorPage</h1>}></Route> */}
        <Route path  ="/*" element = {<ErrorPage/>}></Route>
     </Routes>
