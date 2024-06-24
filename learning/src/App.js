@@ -27,6 +27,7 @@ import { ApiDemo3 } from './Apis/ApiDemo3';
 import { ApiDemo4 } from './Apis/ApiDemo4';
 import { MovieApi } from './Apis/MovieApi';
 import { Google } from './Contex/Google';
+import { PostTwtter } from './Twitter/PostTwtter';
 function App() {
 
   // var name = "Yash Gohel"
@@ -71,6 +72,7 @@ function App() {
       <Route path='/ApiDemo4' element = {<ApiDemo4/>}></Route>
       <Route path='/MovieApi' element = {<MovieApi/>}></Route>
       <Route path='/google' element = {<Google/>}></Route> 
+      <Route path='/postTweet' element = {<PostTwtter/>}></Route> 
            {/* <Route path = "/*" element = {<h1>ErrorPage</h1>}></Route> */}
        <Route path  ="/*" element = {<ErrorPage/>}></Route>
     </Routes>

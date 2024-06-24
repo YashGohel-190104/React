@@ -70,6 +70,11 @@ export const Navbar = () => {
               Google
             </Link>
           </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/postTweet">
+              PostTwtter
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
