@@ -29,6 +29,9 @@ import { MovieApi } from './Apis/MovieApi';
 import { Google } from './Contex/Google';
 import { PostTwtter } from './Twitter/PostTwtter';
 import { BlogMain } from './BlogsContex/BlogMain';
+import { BookComponent } from './Components/BookComponents';
+import { Mui } from './Mui/Mui';
+import { Mui2 } from './Mui/Mui2';
 function App() {
 
   // var name = "Yash Gohel"
@@ -70,11 +73,15 @@ function App() {
       <Route path='/cityState' element={<CityState/>}></Route>
       <Route path='/ApiDemo2' element= {<ApiDemo2/>}></Route>
       <Route path='/ApiDemo3' element= {<ApiDemo3/>}></Route>
-      <Route path='/ApiDemo4' element = {<ApiDemo4/>}></Route>
+      {/* <Route path='/ApiDemo4' element = {<ApiDemo4/>}></Route> */}
       <Route path='/MovieApi' element = {<MovieApi/>}></Route>
       <Route path='/google' element = {<Google/>}></Route> 
       <Route path='/postTweet' element = {<PostTwtter/>}></Route> 
       <Route path='/BlogMain' element = {<BlogMain/>}></Route>
+      <Route path='/Book' element={<BookComponent/>}></Route>
+      <Route path='/mui' element={<Mui/>}></Route>
+      <Route path='/mui2' element={<Mui2/>}></Route>
+
            {/* <Route path = "/*" element = {<h1>ErrorPage</h1>}></Route> */}
        <Route path  ="/*" element = {<ErrorPage/>}></Route>
     </Routes>

@@ -80,6 +80,19 @@ export const Navbar = () => {
             BlogMain
             </Link>
           </li>
+
+          <li className="nav-item active">
+            <Link className="nav-link" to="/mui">
+           mui
+            </Link>
+          </li>
+
+          <li className="nav-item active">
+            <Link className="nav-link" to="/mui2">
+            Mui2
+            </Link>
+          </li>
+
         </ul>
       </div>
     </nav>
