@@ -32,6 +32,8 @@ import { BlogMain } from './BlogsContex/BlogMain';
 import { BookComponent } from './Components/BookComponents';
 import { Mui } from './Mui/Mui';
 import { Mui2 } from './Mui/Mui2';
+import { DashBord } from './Mui/DashBord';
+import { MuiLayout } from './Mui/MuiLayout';
 function App() {
 
   // var name = "Yash Gohel"
@@ -81,6 +83,8 @@ function App() {
       <Route path='/Book' element={<BookComponent/>}></Route>
       <Route path='/mui' element={<Mui/>}></Route>
       <Route path='/mui2' element={<Mui2/>}></Route>
+      <Route path='/dashbord' element={<DashBord/>}></Route>
+      <Route path='/muilayout' element={<MuiLayout/>}></Route>
 
            {/* <Route path = "/*" element = {<h1>ErrorPage</h1>}></Route> */}
        <Route path  ="/*" element = {<ErrorPage/>}></Route>

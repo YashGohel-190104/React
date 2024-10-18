@@ -93,6 +93,18 @@ export const Navbar = () => {
             </Link>
           </li>
 
+          <li className="nav-item active">
+            <Link className="nav-link" to="/dashbord">
+            DashBord
+            </Link>
+          </li>
+
+          <li className="nav-item active">
+            <Link className="nav-link" to="/muilayout">
+            MuiLayout
+            </Link>
+          </li>
+
         </ul>
       </div>
     </nav>
