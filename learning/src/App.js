@@ -34,6 +34,7 @@ import { Mui } from './Mui/Mui';
 import { Mui2 } from './Mui/Mui2';
 import { DashBord } from './Mui/DashBord';
 import { MuiLayout } from './Mui/MuiLayout';
+import { UploadFile } from './Components/UploadFile';
 function App() {
 
   // var name = "Yash Gohel"
@@ -88,6 +89,7 @@ function App() {
 
            {/* <Route path = "/*" element = {<h1>ErrorPage</h1>}></Route> */}
        <Route path  ="/*" element = {<ErrorPage/>}></Route>
+       <Route path = "/uploadfile" element={<UploadFile/>}/>
     </Routes>
     </div>
   );

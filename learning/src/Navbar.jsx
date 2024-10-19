@@ -15,7 +15,7 @@ export const Navbar = () => {
               Home 
             </Link>
           </li>
-          <li className="nav-item active">
+          {/* <li className="nav-item active">
             <Link className="nav-link" to="/netflixmovie">
               movies
             </Link>
@@ -24,7 +24,7 @@ export const Navbar = () => {
             <Link className="nav-link" to="/netflixshows">
               Shows
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item active">
             <Link className="nav-link" to="/netflixgames">
               Games 
@@ -102,6 +102,12 @@ export const Navbar = () => {
           <li className="nav-item active">
             <Link className="nav-link" to="/muilayout">
             MuiLayout
+            </Link>
+          </li>
+
+          <li className="nav-item active">
+            <Link className="nav-link" to="/uploadfile">
+            File Upload
             </Link>
           </li>
 
